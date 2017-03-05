@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>my - ATS</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>key&gt;NSAppTransportSecurity&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+        &lt;true/&gt;
+    &lt;/dict&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C29AA431-85D8-439C-B206-420101205E6D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.XML</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>my - ATS</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>my - ATS</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>danli</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (id)copyWithZone:(NSZone *)zone
+{
+    return _instance;
+}
++(instancetype)sharedPerson
+{
+    if (_instance == nil)
+    {
+        _instance = [[self alloc]init];
+    }
+    return _instance;
+}
++(instancetype)allocWithZone:(struct _NSZone *)zone
+{
+    if (_instance == nil)
+    {
+        _instance = [super allocWithZone:zone];
+    }
+    return _instance;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CE586B77-DF90-454F-86E2-57838F1C242B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>danli</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>danli</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
